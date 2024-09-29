@@ -1,12 +1,33 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Style from './Signup.module.css';
 
 const Signup = () => {
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [address, setState] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("")
+
+
+  const handleFirstName = (firstName)=>{
+    setFirstName(firstName.target.value);
+  }
+  const handleLastName = (lastName)=>{
+    setFirstName(lastName.target.value);
+  }
+  const handlePhoneNumber = (phoneNumber)=>{
+    setPhoneNumber(phoneNumber.target.value);
+  }
+  
+
+
   return (
     <div className={Style.container}>
       <div className={Style.leftSide}>
-        <h1>Sign Up</h1>
-        <p>Create a new account</p>
+        <h1>Sparkle Market place</h1>
+        <p>Already have an account? login</p>
         <div className={Style.inputContainer}>
           <input type="text" placeholder="First Name" name='firstname' />
         </div>
@@ -28,12 +49,11 @@ const Signup = () => {
         <div className={Style.inputContainer}>
           <input type="password" placeholder="Confirm Password" name='confirmpassword' />
         </div>
-        <button>Sign Up</button>
-        <p>Already have an account?</p>
+
+        <button>Create account</button>
       </div>
       <div className={Style.rightSide}>
-        <h2>Welcome to Our Service</h2>
-        <p>Experience the best laundry service in town.</p>
+        
       </div>
     </div>
   );
