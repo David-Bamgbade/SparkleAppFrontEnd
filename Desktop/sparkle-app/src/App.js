@@ -1,7 +1,8 @@
-
 import './App.css';
 import { createBrowserRouter, RouterProvider } from'react-router-dom';
 import  ROUTES from "./router/Router"
+
+
 
 const router =  createBrowserRouter([
   ...ROUTES,
@@ -10,7 +11,7 @@ const router =  createBrowserRouter([
 function App() {
   return (
     <div className="App">
-     <RouterProvider router={router}></RouterProvider>
+     <RouterProvider router={router}></RouterProvider>  
     </div>
   );
 }

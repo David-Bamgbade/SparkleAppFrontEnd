@@ -1,5 +1,7 @@
 import React from 'react'
 import Style from './Login.module.css';
+
+
 const Login = () => {
   return (
     <div className={Style.loginCustomer}>
@@ -7,7 +9,6 @@ const Login = () => {
       <p>Login now and search for your any launderer here in the market</p>
       <form>
         <div className={Style.userNameInput}>
-
         <input type="email" name={`email`} placeholder="Your email" required/>
         </div>
 

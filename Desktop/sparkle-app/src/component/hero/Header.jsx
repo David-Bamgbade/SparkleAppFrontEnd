@@ -14,7 +14,7 @@ const Header = () => {
           </ul>
           <div className={Style.button}>
           <li className={Style.loginButton}><Link to={'/login'}>Login</Link></li>
-          <li className={Style.signupButton}><Link to={'/login'}>Signup</Link></li>
+          <li className={Style.signupButton}><Link to={'/signup'}>Signup</Link></li>
           </div>
         </nav>
         </div>

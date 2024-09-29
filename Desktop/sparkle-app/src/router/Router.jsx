@@ -10,7 +10,6 @@ import Hero from '../component/hero/Hero'
 
 const ROUTES =[{
 
-
   path:"/",
   element: <Hero />,
   Children:[
@@ -36,16 +35,16 @@ const ROUTES =[{
 },
 
 {
+  path:"/signup",
+  element:<Signup />
+},
+
+{
   path:"/login",
   element:<Login />
 },
-{
-  path:"/signup",
-  element:<Signup />
-}
+
 ]
-
-
 
 
 export default ROUTES;
