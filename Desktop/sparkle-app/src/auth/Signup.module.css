@@ -17,7 +17,7 @@
 }
 
 .leftSide {
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .rightSide {
@@ -31,17 +31,27 @@
 
 input {
   width: 450px;
-  height: 70px;
+  height: 68px;
   margin: 5px 40px ;
   box-sizing: border-box;
+  border-radius: 5px;
+  border: 2px transparent;
+  background-color: rgb(241, 238, 238) ;
+  font-size: 15px;
+  text-align: left;
+  
 }
 
 button {
-  padding: 20px 38px;
   background-color: #08498f;
-
+  color: white;
   border: none;
   cursor: pointer;
+  width: 500px;
+  height: 68px;
+  margin: 5px 40px ;
+  border-radius: 17px;
+  font-size: 15px
 }
 
 button:hover {

@@ -5,8 +5,8 @@ const Signup = () => {
   return (
     <div className={Style.container}>
       <div className={Style.leftSide}>
-        <h1>Sign Up</h1>
-        <p>Create a new account</p>
+        <h1>Sparkle Market place</h1>
+        <p>Already have an account? login</p>
         <div className={Style.inputContainer}>
           <input type="text" placeholder="First Name" name='firstname' />
         </div>
@@ -28,8 +28,7 @@ const Signup = () => {
         <div className={Style.inputContainer}>
           <input type="password" placeholder="Confirm Password" name='confirmpassword' />
         </div>
-        <button>Sign Up</button>
-        <p>Already have an account?</p>
+        <button>Create account</button>
       </div>
       <div className={Style.rightSide}>
         <h2>Welcome to Our Service</h2>
