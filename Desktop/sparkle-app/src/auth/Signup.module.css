@@ -27,20 +27,19 @@
 
 .inputContainer {
   margin-bottom: 5px;
-  font-size: 30px;
 }
 
 input {
-  width: 100%;
-  padding: 10px;
-  margin: 15px 0;
+  width: 450px;
+  height: 70px;
+  margin: 5px 40px ;
   box-sizing: border-box;
 }
 
 button {
-  padding: 10px 38px;
+  padding: 20px 38px;
   background-color: #08498f;
-  color: white;
+
   border: none;
   cursor: pointer;
 }
