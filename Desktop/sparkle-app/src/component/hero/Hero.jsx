@@ -1,7 +1,6 @@
 import React from 'react';
 import Style from './Hero.module.css'
 import Header from './Header';
-// import'../hero/Header.module.css'
 
 
 const Hero = () => {

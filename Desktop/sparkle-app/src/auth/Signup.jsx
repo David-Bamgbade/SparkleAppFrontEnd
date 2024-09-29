@@ -1,7 +1,28 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Style from './Signup.module.css';
 
 const Signup = () => {
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [address, setState] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("")
+
+
+  const handleFirstName = (firstName)=>{
+    setFirstName(firstName.target.value);
+  }
+  const handleLastName = (lastName)=>{
+    setFirstName(lastName.target.value);
+  }
+  const handlePhoneNumber = (phoneNumber)=>{
+    setPhoneNumber(phoneNumber.target.value);
+  }
+  
+
+
   return (
     <div className={Style.container}>
       <div className={Style.leftSide}>
@@ -28,11 +49,11 @@ const Signup = () => {
         <div className={Style.inputContainer}>
           <input type="password" placeholder="Confirm Password" name='confirmpassword' />
         </div>
+
         <button>Create account</button>
       </div>
       <div className={Style.rightSide}>
-        <h2>Welcome to Our Service</h2>
-        <p>Experience the best laundry service in town.</p>
+        
       </div>
     </div>
   );
