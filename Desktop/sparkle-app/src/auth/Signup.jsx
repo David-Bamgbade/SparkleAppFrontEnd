@@ -9,7 +9,7 @@ const Signup = () => {
         <p>Create a new account</p>
         <div className={Style.inputContainer}>
           <input type="text" placeholder="First Name" name='firstname' />
-        </div>git
+        </div>
         <div className={Style.inputContainer}>
           <input type="text" placeholder="Last Name" name='lastname' />
         </div>
