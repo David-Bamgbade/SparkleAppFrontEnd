@@ -24,7 +24,7 @@
   margin-top:1%;
 }
 
-form {
+.loginForm form {
   background: rgba(15, 8, 8, 0.829);
   padding: 2rem;
   border-radius: 10px;

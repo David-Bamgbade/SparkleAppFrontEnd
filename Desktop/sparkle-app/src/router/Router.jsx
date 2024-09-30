@@ -1,4 +1,3 @@
-// import Hero from '../component/hero/Hero'
 import Login from '../auth/Login'
 import Signup from '../auth/Signup'
 import Rider from '../component/Rider'
