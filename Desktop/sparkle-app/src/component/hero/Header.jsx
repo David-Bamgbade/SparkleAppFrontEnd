@@ -7,7 +7,7 @@ const Header = () => {
     <div className={Style.header}>
         <nav className={Style.navBar}>
           <div className={Style.logo}>
-            <h1><span>Spark</span>les</h1>
+            <h1><span>Spark</span>le</h1>
           </div>
           <ul className={Style.navBarList}>
           

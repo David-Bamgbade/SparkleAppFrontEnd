@@ -5,6 +5,7 @@ import Home from '../component/Home'
 import Market from '../component/Market'
 import Service from '../component/Services'
 import Hero from '../component/hero/Hero'
+import LaundererSignup from '../component/LaundererSignup'
 
 
 const ROUTES =[{
@@ -14,7 +15,7 @@ const ROUTES =[{
   Children:[
 
     {
-      path:"/",
+      path:"/hero",
       element:<Home />
     }
   ]
@@ -42,6 +43,11 @@ const ROUTES =[{
   path:"/login",
   element:<Login />
 },
+
+{
+  path: "/laundererSignup",
+  element: <LaundererSignup />
+}
 
 ]
 
