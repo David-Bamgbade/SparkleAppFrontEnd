@@ -19,14 +19,11 @@
 
 .leftSide {
   background-color: #ffffff;
-  
 
 }
 
 .rightSide {
-  background-color: black !important; 
-
-
+  background-color: rgb(57, 5, 57);
   color: #333;
 }
 .rightSide> h1{
@@ -50,9 +47,8 @@
 
 
 .leftContent{
-  margin-bottom: 80px !important; 
+  margin-bottom: 80px; 
   width: 100%;
-  
   margin-left: 12%;
 }
 .leftContent>h4 a{
@@ -66,7 +62,7 @@
 }
 .leftContent>h1{
   font-size: 55px;
-  padding-bottom: 7%;
+  padding-bottom: 5%;
 }
 .leftContent>h2{
   font-size: 29px;
@@ -81,49 +77,73 @@
   font-weight: 200;
 }
 .leftContent>h5 a{
-  text-decoration: none !important;
-  font-size: 19px !important;
-  color: black !important;
-  margin-top: 20px;
+  text-decoration: none ;
+  font-size: 19px;
+  color: black;
+  margin-top: 18px;
  
 }
 
 .accountType {
   width: 60%;
-  max-width: 1000px;
+  /* max-width: 1000px; */
   margin-left:40px auto;
   margin-top:50px ;  
 }
 
 .accountType > form > div {
-  display: flex;
+  display: grid;
   align-items: center;
-  padding: 50px 10px;
+  padding: 1px 10px;
   border: 1px solid transparent;
   border-radius: 8px;
-  margin-bottom: 19px;
+  margin-bottom: 13px;
   background-color: white;
-  box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.1); 
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1); 
 }
 
+.laundererAccountType a{
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+}
 
 .laundererAccountType> p{
   font-size: 20px;
   margin-right: 20px;
-  color: black;
-  display: grid;
+  color: white;
+  display: flex;
 }
+.laundererAccountType>label{
+    font-size: 20px;
+}
+
+.riderAccountType  a{
+  text-decoration: none; 
+  list-style: none;
+  color: black;
+  font-size: 21px;
+ }
+
+ .customerAccountType a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-size: 21px;
+ }
 input[type="radio"] {
-  margin-right: 10px; 
-  transform: scale(1.2); 
+  margin-left: 10px; 
+  transform: scale(0.0); 
 }
 
 label {
   font-size: 18px;
   font-weight: 500;
-  color: #333;
+  /* color: #333; */
 }
 .accountType > form > div:hover {
-  background-color: #f0f0f0; 
+ 
   cursor: pointer;
+  color: white;
 }
+

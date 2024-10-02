@@ -5,7 +5,7 @@ import Home from '../component/Home'
 import Market from '../component/Market'
 import Service from '../component/Services'
 import Hero from '../component/hero/Hero'
-import LaundererSignup from '../component/LaundererSignup'
+import LaundererSignup from '../auth/LaundererSignup'
 
 
 const ROUTES =[{
